@@ -1,0 +1,26 @@
+{
+  "name": "capturing-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "capturing-system",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
